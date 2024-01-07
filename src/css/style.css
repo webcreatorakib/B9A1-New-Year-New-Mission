@@ -189,3 +189,25 @@ header .header-title{
     font-size:20px;
     text-align: justify;
 }
+/* __________Here is style holyday section_____________ */
+#holyday{
+    text-align: center;
+    padding-top:0;
+}
+#holyday .holyday-top-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:16px;
+}
+#holyday .holyday-title{
+    font-size:70px;
+    margin-bottom: 28px;
+}
+#holyday .holyday-title span{
+    color:#ff0000;
+}
+#holyday .holyday-description{
+    color:rgba(7, 2, 17, 0.60);
+    max-width:80%;
+    margin:auto;
+}
