@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5{
 p{
     line-height: 30px;
     margin: 24px 0;
+    font-family: 'Inter', sans-serif;
 }
 .btn{
     font-size: 20px;
@@ -23,6 +24,8 @@ p{
     background:#FF0000;
     font-weight: 700;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s;
 }
 .container{
     width:82%;
@@ -30,7 +33,7 @@ p{
     margin:auto;
 }
 section{
-    padding:100px 0;
+    padding:120px 0;
 }
 /* ____________Here is header style__________ */
 header .container{
@@ -66,7 +69,6 @@ header .header-title{
     font-family:'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
-    margin-top:20px;
 }
 #categories .categories-top-title{
     color:#FF0000;
@@ -111,10 +113,32 @@ header .header-title{
 }
 #welcome .welcome-btn{
     margin-top: 10px;
-    cursor: pointer;
-    transition: all .4s;
 }
 #welcome .welcome-btn:hover{
     color:#FF0000;
     background-color:#fff;
+}
+/* ____________Start Place section style_________ */
+#place{
+    padding:0;
+}
+#place .place-content{
+    background: linear-gradient(#ff000029,#ff000000);
+    text-align: center;
+    padding:100px 
+}
+#place .place-content h3{
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#place .place-content h3 span{
+    color:#FF0000;
+}
+#place .place-content .place-btn{
+    margin-top: 30px;
+}
+#place .place-btn:hover{
+    background:black;
 }
