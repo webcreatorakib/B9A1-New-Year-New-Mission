@@ -10,6 +10,20 @@ h1,h2,h3,h4,h5{
     font-family: 'Merriweather', serif;
     font-weight: 900;
 }
+p{
+    line-height: 30px;
+    margin: 24px 0;
+}
+.btn{
+    font-size: 20px;
+    padding:15px 20px;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#FF0000;
+    font-weight: 700;
+    border-radius: 5px;
+}
 .container{
     width:82%;
     max-width: 1320px;
@@ -75,15 +89,32 @@ header .header-title{
     background:linear-gradient(to right,#000000,#00000000),url("../img/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     color:#fff;
-    padding:126px;
+    padding:120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+#welcome .welcome-element{
+    max-width:700px;
 }
 #welcome .welcome-title{
     font-size:64px;
     line-height: 88px;
     letter-spacing: 7px;
-    max-width: 642px;
 }
 #welcome .welcome-description{
-    max-width: 697px;
+    font-size:18px;
+    color:rgba(255, 255, 255, 0.80);
+}
+#welcome .welcome-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+#welcome .welcome-btn:hover{
+    color:#FF0000;
+    background-color:#fff;
 }
