@@ -6,14 +6,18 @@
 html{
     font-family: 'Inter', sans-serif;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3{
     font-family: 'Merriweather', serif;
     font-weight: 900;
 }
+h4,h5{
+    font-family: 'Inter', sans-serif;
+}
 p{
+    font-family: 'Inter', sans-serif;
     line-height: 30px;
     margin: 24px 0;
-    font-family: 'Inter', sans-serif;
+    font-size:20px;
 }
 .btn{
     font-size: 20px;
@@ -123,7 +127,7 @@ header .header-title{
     padding:0;
 }
 #place .place-content{
-    background: linear-gradient(#ff000029,#ff000000);
+    background: linear-gradient(#ff000017,#ff000000);
     text-align: center;
     padding:100px 
 }
@@ -141,4 +145,47 @@ header .header-title{
 }
 #place .place-btn:hover{
     background:black;
+}
+/* ___________Here is style offer section____________ */
+#offer .offer-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#offer .offer-top-title{
+    color:#FF0000;
+    font-weight: 500;
+    font-size: 24px;
+}
+#offer .offer-left-title{
+    font-size: 48px;
+    margin-top:16px;
+}
+#offer .offer-left-description{
+    color: rgba(7, 2, 17, 0.60);
+    max-width:400px;
+    font-size: 20px;
+    text-align: justify;
+}
+#offer .offer-img{
+    width:350px;
+    height: 350px;
+    padding:20px;
+    border:15px solid #FF0000;
+    border-radius: 50%;
+    margin-top:-100px;
+}
+#offer .offer-img img{
+    width:100%;
+}
+#offer .offer-right-title{
+    color:#ff0000;
+    font-size: 48px;
+    font-weight: 700;
+}
+#offer .offer-right-description{
+    max-width:400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px;
+    text-align: justify;
 }
