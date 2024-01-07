@@ -1,0 +1,89 @@
+/* ____________Basic setup______________ */
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+.container{
+    width:82%;
+    max-width: 1320px;
+    margin:auto;
+}
+section{
+    padding:100px 0;
+}
+/* ____________Here is header style__________ */
+header .container{
+    margin-top:50px;
+}
+header .header-section{
+    background:linear-gradient(#000000, #00000000),url("../img/Banner_Image.png"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+    background-position: center center;
+ }
+header .header-content{
+    padding:175px;
+    text-align: center;
+    color:#fff;
+}
+header .header-top-title{
+    font-size:32px;
+    font-weight: 400;
+}
+header .header-title{
+    font-size:72px;
+    margin-top:16px;
+    line-height: 95px;
+}
+/* ____________Here is categories style___________ */
+#categories{
+    text-align: center;
+}
+#categories .categories-off{
+    color:#FF0000;
+    font-family:'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top:20px;
+}
+#categories .categories-top-title{
+    color:#FF0000;
+    font-family:'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+#categories .categories-title{
+    font-size: 48px;
+    font-weight: 700;
+    font-family:'Inter', sans-serif;
+    margin:16px 0 48px 0;
+}
+/* ____________Here is welcome section style___________ */
+#welcome{
+    padding-top:0;
+}
+#welcome .welcome-content{
+    background:linear-gradient(to right,#000000,#00000000),url("../img/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    padding:126px;
+}
+#welcome .welcome-title{
+    font-size:64px;
+    line-height: 88px;
+    letter-spacing: 7px;
+    max-width: 642px;
+}
+#welcome .welcome-description{
+    max-width: 697px;
+}
