@@ -22,6 +22,10 @@ p{
     margin: 24px 0;
     font-size:20px;
 }
+a{
+    text-decoration: none;
+    color:#fff;
+}
 .btn{
     font-size: 20px;
     padding:15px 20px;
@@ -317,4 +321,31 @@ header .header-title{
     width: 35%;
     border-radius: 0;
     border-radius: 0 35px 35px 0;
+}
+/* __________Here is footer section__________ */
+footer{
+    background:#070211;
+    color:#fff;
+    padding:120px 0;
+}
+footer .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+footer .footer-contact img{
+    display: inline-block;
+    margin-bottom:-7px;
+}
+footer .footer-social{
+    width:25%;
+    margin:auto;
+    padding:50px 0;
+}
+footer .facebook{
+    padding-right:12px;
+}
+footer .footer-copyright{
+    padding-top:50px;
+    margin-bottom:0;
 }
