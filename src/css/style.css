@@ -6,6 +6,9 @@
 html{
     font-family: 'Inter', sans-serif;
 }
+section{
+    padding-bottom:100px;
+}
 h1,h2,h3{
     font-family: 'Merriweather', serif;
     font-weight: 900;
@@ -36,9 +39,6 @@ p{
     max-width: 1320px;
     margin:auto;
 }
-section{
-    padding:120px 0;
-}
 /* ____________Here is header style__________ */
 header .container{
     margin-top:50px;
@@ -67,6 +67,7 @@ header .header-title{
 /* ____________Here is categories style___________ */
 #categories{
     text-align: center;
+    padding-top:100px;
 }
 #categories .categories-off{
     color:#FF0000;
@@ -153,15 +154,17 @@ header .header-title{
     justify-content: space-between;
     align-items: center;
 }
-#offer .offer-top-title{
+/* start offer and portfolio style */
+#offer .offer-top-title,.portfolio-top-title{
     color:#FF0000;
     font-weight: 500;
     font-size: 24px;
 }
-#offer .offer-left-title{
+#offer .offer-left-title,.portfolio-title{
     font-size: 48px;
     margin-top:16px;
 }
+/*End offer and portfolio style */
 #offer .offer-left-description{
     color: rgba(7, 2, 17, 0.60);
     max-width:400px;
@@ -226,8 +229,8 @@ header .header-title{
 .holyday-left-img{
     z-index:100;
 }
-.holyday-right-img{
-    align-items: end;
+.holyday-right-img img{
+    position: static;
 }
 .discount{
     position: absolute;
@@ -237,4 +240,45 @@ header .header-title{
 .holyday-bottom-img{
     bottom:0;
     position: absolute;
+}
+/* __________Here is portfolio section style_________ */
+#portfolio .portfolio-description{
+    color:rgba(7, 2, 17, 0.60);
+    width:70%;
+}
+#portfolio .portfolio-row{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-between;
+    margin-top:48px;
+}
+#portfolio .portfolio-item{
+    cursor:pointer;
+    position: relative;
+}
+#portfolio .portfolio-item img{
+    width:100%;
+    height: 100%;
+}
+#portfolio .portfolio-details{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size:30px;
+    color:#ffff;
+    /* important for me */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    opacity: 0;
+    transition: all .4s;
+}
+#portfolio .portfolio-details:hover{
+    background:rgba(0, 0, 0, 0.346);
+    opacity: 1;
 }
