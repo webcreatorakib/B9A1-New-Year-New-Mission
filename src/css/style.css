@@ -126,7 +126,7 @@ header .header-title{
 }
 /* ____________Start Place section style_________ */
 #place{
-    padding:0;
+    padding-bottom:80px;
 }
 #place .place-content{
     background: linear-gradient(#ff000017,#ff000000);
@@ -154,17 +154,17 @@ header .header-title{
     justify-content: space-between;
     align-items: center;
 }
-/* start offer and portfolio style */
+/* start offer,portfolio,subscribe title style */
 #offer .offer-top-title,.portfolio-top-title{
     color:#FF0000;
     font-weight: 500;
     font-size: 24px;
 }
-#offer .offer-left-title,.portfolio-title{
+#offer .offer-left-title,.portfolio-title,.subscribe-title{
     font-size: 48px;
     margin-top:16px;
 }
-/*End offer and portfolio style */
+/*End offer,portfolio,subscribe title style */
 #offer .offer-left-description{
     color: rgba(7, 2, 17, 0.60);
     max-width:400px;
@@ -210,11 +210,13 @@ header .header-title{
 #holyday .holyday-title span{
     color:#ff0000;
 }
-#holyday .holyday-description{
+/* Start holyday and subscribe description style */
+#holyday .holyday-description,.subscribe-description{
     color:rgba(7, 2, 17, 0.60);
-    max-width:80%;
+    max-width:75%;
     margin:auto;
 }
+/* End holyday and subscribe description style */
 .holyday-img{
     position: relative;
     height:720px;
@@ -281,4 +283,38 @@ header .header-title{
 #portfolio .portfolio-details:hover{
     background:rgba(0, 0, 0, 0.346);
     opacity: 1;
+}
+/* ___________Here is subscribe section style________ */
+#subscribe .subscribe-content{
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    padding:80px 0;
+    text-align: center;
+}
+#subscribe .subscribe-title{
+    margin-bottom:22px;
+}
+#subscribe .subscribe-description{
+    margin-bottom:48px;
+}
+#subscribe .subscribe-input{
+    width:45%;
+    margin:auto;
+    display: flex;
+}
+#subscribe .subscribe-input input,.subscribe-input  button{
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+#subscribe .subscribe-input input{
+    padding:25px 20px;
+    width:65%;
+    border-radius: 35px 0 0 35px;
+    font-size:18px;
+}
+#subscribe .subscribe-input .btn{
+    width: 35%;
+    border-radius: 0;
+    border-radius: 0 35px 35px 0;
 }
