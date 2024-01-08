@@ -105,6 +105,7 @@ header .header-title{
 }
 #welcome .welcome-element{
     max-width:700px;
+    margin: auto 0;
 }
 #welcome .welcome-title{
     font-size:64px;
@@ -168,8 +169,8 @@ header .header-title{
     text-align: justify;
 }
 #offer .offer-img{
-    width:350px;
-    height: 350px;
+    width:25%;
+    height: 25%;
     padding:20px;
     border:15px solid #FF0000;
     border-radius: 50%;
@@ -210,4 +211,30 @@ header .header-title{
     color:rgba(7, 2, 17, 0.60);
     max-width:80%;
     margin:auto;
+}
+.holyday-img{
+    position: relative;
+    height:720px;
+}
+.holyday-img-item{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    gap:94px;
+    bottom:0;
+}
+.holyday-left-img{
+    z-index:100;
+}
+.holyday-right-img{
+    align-items: end;
+}
+.discount{
+    position: absolute;
+    right:21%;
+    bottom:42%;
+}
+.holyday-bottom-img{
+    bottom:0;
+    position: absolute;
 }
