@@ -244,7 +244,7 @@ header .header-title{
     bottom:42%;
 }
 .holyday-bottom-img{
-    bottom:0;
+    bottom:1px;
     position: absolute;
 }
 /* __________Here is portfolio section style_________ */
